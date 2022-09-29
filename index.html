@@ -8,97 +8,158 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-  
-  
-  <nav class="header">
-		<h1 class="logo"><a href="#">Justin Motsi</a></h1>
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-      </ul>
-    </nav> 
-    
-  <!-- Header -->
-  <header class="main_header">
-    <h1 class="w3-jumbo"><b>Justin Motsi</b></h1>
-    <p>Trainee Software Engineer</p> 
+
+  <header>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </nav> 
   </header>
 
-  <header class="main_header">
-    <h1 class="w3-jumbo"><b>about me</b></h1>
-    <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p> 
-  </header>
-
-  <section class="parent-container">
-    <section class="child-container">
-      <h3 class="about content title"> get to know me!</h3>
-      <div class ="about content details">
-        <p>"I'm a trainee software engineer currently specialising in front end web deveopment </p>
-        <p> working under the close supervision of the lead software engineer. He has various jobs, from performing small programming jobs, learning and maintaining different systems, such as people management software and simple performance management software and bespoke software. 
-          Assisting with I.T. support and being the first point of contact to support service users and clients with any queries and issues.</p>
-        <p>I am familiar with HTML, CSS and JavaScript</p>
-        <p>I am a motivated and hardworking individual who is always looking for new challenges.
-          I am excited to learn new things and to work on innovative and cutting-edge software projects.</p>
-          <p>Justin is a confident communicator, strategic thinker, hard worker and a fast learner who uses his positive attitude and tireless energy to encourage others to work hard and succeed.</p>
-          <p></p>
-
-          <a href="contact" class="btn>Contact>
-        
+    <!-- Hero section -->
+  <section id="hero">
+    <div class="Hero_container">
+      <div class="info">
+        <h1>Justin Motsi</h1>
+        <h2>Trainee Software Engineer</h2>
+        <p>A trainee front end focused Web Developer building the Frontend of Websites and Web Applications</p>
+      </div>
+    </div>
+  </section>
+ 
     
+  <!-- About me section -->
 
-    <section class="child-container">
-      <div class="about__content-skills">
-        <h3 class="about__content-title">My Skills</h3>
-        <div class="skills">
-          <div class="skills__skill">HTML</div>
-          <div class="skills__skill">CSS</div>
-          <div class="skills__skill">JavaScript</div>
+  <!-- ABOUT -->
+  <section id="about">
+    <!-- CONTAINER -->
+    <div class="container">
+      <h1>about me</h1>
+      <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
+      <h2>get to know me!</h2>
+      <div class="row info">
+        <div class="col-sm-8">
+          <p>"I'm a trainee software engineer currently specialising in front end web deveopment </p>
+          <p> working under the close supervision of the lead software engineer. He has various jobs, from performing small programming jobs, learning and maintaining different systems, such as people management software and simple performance management software and bespoke software. 
+            Assisting with I.T. support and being the first point of contact to support service users and clients with any queries and issues.</p>
+          <p>I am familiar with HTML, CSS and JavaScript</p>
+          <p>I am a motivated and hardworking individual who is always looking for new challenges.
+            I am excited to learn new things and to work on innovative and cutting-edge software projects.</p>
+            <p>Justin is a confident communicator, strategic thinker, hard worker and a fast learner who uses his positive attitude and tireless energy to encourage others to work hard and succeed.</p>
+          <span class="signature">.Justin Motsi</span>
+        </div>
+
+        <div class="col-md-4">
+          <img src="justin.png">
         </div>
       </div>
-    </section>
+      
+      <div id="skill-set">
+        <h3>Skills</h3>
+        <ul class="vertical-list">
+          <li>
+            <ul class="vertical-list skills" id="web-development-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF CONTAINER -->
   </section>
+  <!-- END OF ABOUT -->
+ 
 
-  <section class="parent-container">
-    <header class="main_header">
-      <h1 class="w3-jumbo"><b>project</b></h1>
-      <p>Trainee Software Engineer</p> 
-    </header>
+  <!-- Project -->
 
+   <section id="Projects">
+			
+   
+    <div class="container">
+      <h2>Projects</h2>
+    </div>
     
-
-    <p> 
-      Built my own DAO using javascript
-      created membership nft
-      created a token and created and deployed governance token
-    </p>
     
-  </section>
-  
-    <section class="parent-container">
-      <form>
-                <label for="MName"> Name </label>
-                <input type="text" id="MName" name="Name" placeholder="Enter Your name">
+    <div class="container">
+      <section>
+          <!-- OVERLAY -->
+          <div class="overlay">
+            <!-- DESCRIPTION -->
+            <div class="description">
+              <p> 
+                Built my own DAO using javascript
+                created membership nft
+                created a token and created and deployed governance token
+              </p>
+              
+              <h6>Tools</h6>
+              <ul class="tools vertical-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>REACT</li>
+              </ul>
+            </div>
+            <!-- END OF DESCRIPTION -->
+            
+            <img src="" alt="">
+            <h4 class="heading">Jays Trust dao</h4>
+          </div>
+          <!-- END OF OVERLAY -->
+        </section>
+        <!-- END OF SECTION -->
 
-                <label for="Email"> Email </label>
-                <input type="text" id="Email" name="Email" placeholder="Enter Your Email">
+ 
 
-                <label for="Message"> Message  </label>
-                <textarea  id="Message" name ="Message" placeholder ="Enter Your Message"></textarea>
+  <!-- CONTACT PAGE -->
+  <section id="contact">
+    <div class="overlay">
+      <div class="container">
+        <h2>Contact Me</h2>
+        
+        <div class="row">
+          <div class="col-lg-9">
+          <form role="form" method="POST">
+            <div class="form-group">
+              <label for="nameTXT">Your Name</label>
+              <input type="text" id="nameTXT" name="nameTXT">
+            </div>
 
-                <button type="Submit">SUBMIT</button>
-            </form>
+            <div class="form-group">
+              <label for="emailTXT">Email Address</label>
+              <input type="email" id="emailTXT" name="emailTXT">
+            </div>
+
+            <div class="form-group">
+              <label for="subjectTXT">Subject</label>
+              <input type="text" id="subjectTXT" name="subjectTXT">
+            </div>
+
+            <div class="form-group">
+              <label for="messageTXT">Message</label>
+              <textarea cols="36" rows="8" id="messageTXT" name="messageTXT"></textarea>
+            </div>
+
+            <button type="submit" class="noir" id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span>Send</button>
+          </form>	
         </div>
-    </section>
-    <footer class="'main_footer">
-      <h1>Justin Motsi</h1>
-        <p>Personal Website @2022</p>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
-    
-      </footer>
-    </footer>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- END OF CONTACT PAGE -->
+
+  <footer>
+    <h1>2022 JUSTIN MOTSI Nottingham, UK</h1>
+ 
+</section>
+</footer>
+  
     
 </body>
 
