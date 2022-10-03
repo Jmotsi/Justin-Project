@@ -12,10 +12,10 @@
   <header>
     <nav>
         <ul class="nav__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
       </nav> 
   </header>
@@ -31,18 +31,16 @@
     </div>
   </section>
  
-    
-  <!-- About me section -->
+  <div class="about-header">
+    <h1>about me</h1>
+    <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
+  </div>
+  
 
   <!-- ABOUT -->
-  <section id="about">
+  <section class = "about_container">
     <!-- CONTAINER -->
-    <div class="container">
-      <h1>about me</h1>
-      <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
-      <h2>get to know me!</h2>
-      <div class="row info">
-        <div class="col-sm-8">
+    <section class="child_container">
           <p>"I'm a trainee software engineer currently specialising in front end web deveopment </p>
           <p> working under the close supervision of the lead software engineer. He has various jobs, from performing small programming jobs, learning and maintaining different systems, such as people management software and simple performance management software and bespoke software. 
             Assisting with I.T. support and being the first point of contact to support service users and clients with any queries and issues.</p>
@@ -51,39 +49,35 @@
             I am excited to learn new things and to work on innovative and cutting-edge software projects.</p>
             <p>Justin is a confident communicator, strategic thinker, hard worker and a fast learner who uses his positive attitude and tireless energy to encourage others to work hard and succeed.</p>
           <span class="signature">.Justin Motsi</span>
-        </div>
+        </section>
 
-        <div class="col-md-4">
+        <section class="child_container">
           <img src="justin.png">
-        </div>
-      </div>
-      
-      <div id="skill-set">
-        <h3>Skills</h3>
-        <ul class="vertical-list">
-          <li>
-            <ul class="vertical-list skills" id="web-development-skills">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
+          <div id="skill-set">
+            <h3>Skills</h3>
+            <ul class="vertical-list">
+              <li>
+                <ul class="vertical-list skills" id="web-development-skills">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!-- END OF CONTAINER -->
-  </section>
+          </div>
+        </section>
+      </section>
   <!-- END OF ABOUT -->
  
+  <div class="about-header">
+    <h2>Projects</h2>
+  </div>
 
   <!-- Project -->
 
-   <section id="Projects">
-			
-   
-    <div class="container">
-      <h2>Projects</h2>
-    </div>
+   <section class ="Projects">
+     <section class="Projects_container">
+
     
     
     <div class="container">
@@ -114,7 +108,10 @@
         </section>
         <!-- END OF SECTION -->
 
- 
+        <div class="about-header">
+          <h1>about me</h1>
+          <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
+        </div>
 
   <!-- CONTACT PAGE -->
   <section id="contact">
@@ -164,3 +161,5 @@
 </body>
 
 </html>
+
+

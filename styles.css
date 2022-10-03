@@ -93,6 +93,26 @@ header {
   color: #ee6c09;
 }
 
+/* */ 
+.about-header {
+  background-color: rgba(149, 66, 78);
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Verdana;
+  text-align: center;
+  border-style: solid;
+}
+.about_container {
+  display:flex;
+  height: 100vh;
+}
+
+.child-container {
+  border:5px solid white;
+}
+
+
 #about .info {
 	display: flex;
 	flex-direction: row;
@@ -119,8 +139,7 @@ header {
 }
 
 #skill-set {
-	margin-top: 80px;
-	padding-bottom: 80px;
+	height: 100vh;
 }
 
 #skill-set ul {
@@ -129,6 +148,10 @@ header {
 
 #web-development-skills {
 	background-color: #114190;
+}
+
+.vertical-list li {
+	float: left;
 }
 
 .skills {
@@ -140,6 +163,13 @@ header {
 }
 #about img {
   width: 60%;
+}
+#about .signature {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 150%;
+	float: right;
+	color: #0d2435;
+	opacity: .9;
 }
 
 #about .signature {
