@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-
+<!-- Nav Bar section -->
   <header>
     <nav>
         <ul class="nav__links">
@@ -30,7 +30,7 @@
       </div>
     </div>
   </section>
- 
+ <!-- About me header -->
   <div class="about-header">
     <h1>about me</h1>
     <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
@@ -68,98 +68,69 @@
         </section>
       </section>
   <!-- END OF ABOUT -->
- 
+
+  <!-- Project Header -->
   <div class="about-header">
     <h2>Projects</h2>
   </div>
 
   <!-- Project -->
-
-   <section class ="Projects">
-     <section class="Projects_container">
-
-    
-    
-    <div class="container">
-      <section>
-          <!-- OVERLAY -->
-          <div class="overlay">
-            <!-- DESCRIPTION -->
-            <div class="description">
-              <p> 
-                Built my own DAO using javascript
-                created membership nft
-                created a token and created and deployed governance token
-              </p>
-              
-              <h6>Tools</h6>
-              <ul class="tools vertical-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>REACT</li>
-              </ul>
-            </div>
-            <!-- END OF DESCRIPTION -->
-            
-            <img src="" alt="">
-            <h4 class="heading">Jays Trust dao</h4>
-          </div>
-          <!-- END OF OVERLAY -->
-        </section>
-        <!-- END OF SECTION -->
-
-        <div class="about-header">
-          <h1>about me</h1>
-          <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
+  <section class="Projects_container">
+    <section class="Child_Projects_container">
+      <article>
+        <header class ="portfolio_title_header">
+          <img src="?" />
+          <h1>Portfolio Item Title</h1>
+        </header>
+        <div class="content">
+          <p>explain dao</p>
+          <h2>Skills used:</h2>
+          <ul class="tags">
+            <li class="html">HTML</li>
+            <li class="css">CSS</li>
+            <li class="js">JavaScript</li>
+            <li class="js">react</li>
+          </ul>
         </div>
+      </article>
+    </section>
+  </section>
+<!-- END OF PROJECT SECTION -->
+
+<!-- CONTACT HEADER -->
+<div class="Contact-header">
+  <h1>CONTACT ME</h1>
+  <p>Please, use the form below</p>
+</div>
 
   <!-- CONTACT PAGE -->
-  <section id="contact">
-    <div class="overlay">
-      <div class="container">
-        <h2>Contact Me</h2>
-        
-        <div class="row">
-          <div class="col-lg-9">
-          <form role="form" method="POST">
-            <div class="form-group">
-              <label for="nameTXT">Your Name</label>
-              <input type="text" id="nameTXT" name="nameTXT">
-            </div>
-
-            <div class="form-group">
-              <label for="emailTXT">Email Address</label>
-              <input type="email" id="emailTXT" name="emailTXT">
-            </div>
-
-            <div class="form-group">
-              <label for="subjectTXT">Subject</label>
-              <input type="text" id="subjectTXT" name="subjectTXT">
-            </div>
-
-            <div class="form-group">
-              <label for="messageTXT">Message</label>
-              <textarea cols="36" rows="8" id="messageTXT" name="messageTXT"></textarea>
-            </div>
-
-            <button type="submit" class="noir" id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span>Send</button>
-          </form>	
-        </div>
-      </div>
-    </div>
+    <form id="contact" action="" method="post">
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
   </div>
-</section>
   <!-- END OF CONTACT PAGE -->
 
+  <!-- FOOTER SECTION -->
   <footer>
     <h1>2022 JUSTIN MOTSI Nottingham, UK</h1>
- 
-</section>
-</footer>
-  
-    
-</body>
+  </footer>
+  <!-- END OF FOOTER SECTION -->
 
+</body>
 </html>
 
 
