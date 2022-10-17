@@ -7,77 +7,47 @@
     <title>Justin Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
+
 <body>
+	<!----hero Section start---->
 
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
 
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Justin<span> Motsi</span></h1>
+			<h3>I'am a trainee Web Developer.</h3>
+		</div>
+	</div>
 
-<!-- Nav Bar section -->
-  <header>
-    <nav>
-        <ul class="nav__links">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav> 
-  </header>
-
-    <!-- Hero section -->
-  <section id="hero">
-    <div class="Hero_container">
-      <div class="info">
-        <h1>Justin Motsi</h1>
-        <h2>Trainee Software Engineer</h2>
-        <p>A trainee front end focused Web Developer building the Frontend of Websites and Web Applications</p>
-      </div>
-    </div>
-  </section>
- <!-- About me header -->
-  <div class="about-header">
-    <h1>about me</h1>
-    <p>here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</p>
-  </div>
-  
-
-  <!-- ABOUT -->
-  <section class = "about_container">
-    <!-- CONTAINER -->
-    <section class="child_container">
-          <p>"I'm a trainee software engineer currently specialising in front end web deveopment </p>
+	<!----About section start---->
+	<section class="about">
+        <div class="main">
+			<img src="justin.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5> here you will find more information about me, what i do, and my current skills mostly in terms of programmming and technology</h5>
+				<p><p>"I'm a trainee software engineer currently specialising in front end web deveopment </p>
           <p> working under the close supervision of the lead software engineer. He has various jobs, from performing small programming jobs, learning and maintaining different systems, such as people management software and simple performance management software and bespoke software. 
             Assisting with I.T. support and being the first point of contact to support service users and clients with any queries and issues.</p>
           <p>I am familiar with HTML, CSS and JavaScript</p>
           <p>I am a motivated and hardworking individual who is always looking for new challenges.
             I am excited to learn new things and to work on innovative and cutting-edge software projects.</p>
             <p>Justin is a confident communicator, strategic thinker, hard worker and a fast learner who uses his positive attitude and tireless energy to encourage others to work hard and succeed.</p>
-          <span class="signature">.Justin Motsi</span>
-        </section>
-
-        <section class="child_container">
-          <img src="justin.png">
-          <div id="skill-set">
-            <h3>Skills</h3>
-            <ul class="vertical-list">
-              <li>
-                <ul class="vertical-list skills" id="web-development-skills">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </section>
-  <!-- END OF ABOUT -->
-
-  <!-- Project Header -->
-  <div class="about-header">
-    <h2>Projects</h2>
-  </div>
-
-  <!-- Project -->
+			</div>
+		</div>
+	</section>
+    
+    <!-- Project -->
   <section class="Projects_container">
     <section class="Child_Projects_container">
       <article>
@@ -101,14 +71,12 @@
   </section>
 <!-- END OF PROJECT SECTION -->
 
-<!-- CONTACT HEADER -->
-<div class="Contact-header">
-  <h1>CONTACT ME</h1>
-  <p>Please, use the form below</p>
-</div>
 
-  <!-- CONTACT PAGE -->
-    <form id="contact" action="" method="post">
+          
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>CONTACT ME</p>
+		<form id="contact" action="" method="post">
       <fieldset>
         <input placeholder="Your name" type="text" tabindex="1" required autofocus>
       </fieldset>
@@ -126,15 +94,21 @@
       </fieldset>
     </form>
   </div>
-  <!-- END OF CONTACT PAGE -->
+	</div>
 
-  <!-- FOOTER SECTION -->
-  <footer>
-    <h1>2022 JUSTIN MOTSI Nottingham, UK</h1>
-  </footer>
-  <!-- END OF FOOTER SECTION -->
-
+	<!------footer start--------->
+	<footer>
+		<p>JUSTIN MOTSI</p>
+        <p>Below we can connect on linkedin, and see my github for my other projects</p>
+		<div class="social">
+			<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="#"><i class="fa-brands fa-github"></i></a>
+		</div>
+		<p class="end">Copyright By Justin Motsi 2022</p>
+	</footer>
 </body>
+
 </html>
+
 
 
