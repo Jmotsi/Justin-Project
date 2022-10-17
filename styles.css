@@ -13,10 +13,19 @@ html {
   font-family: 'Josefin Sans', sans-serif;
   box-sizing: border-box;
 }
+
+.title h2 {
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url("https://images.unsplash.com/photo-1553390774-b4822481c894?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwxMnx8d2ViJTIwZGV2ZWxvcGVyfGVufDB8fHx8MTY2NDQ0NjgyNA&ixlib=rb-1.2.1&q=80&w=1080");
+	background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
 	background-size: cover;
 	background-position: center;
 }
@@ -178,7 +187,14 @@ button:hover{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
-
+.projectmain{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
 
 .title h2{
 	color: white;
@@ -263,8 +279,9 @@ article {
  }
  
  .tags .html { border-bottom-color: #e34c26; }
- .tags .css { border-bottom-color: #2662e3; }
+ .tags .css { border-bottom-color: #f3fb0b; }
  .tags .js { border-bottom-color: #8CC84B; }
+ .tags .react { border-bottom-color: #00ffe5; }
 
  
 
