@@ -20,6 +20,12 @@ header {
   background-color: #24252a;
 }
 
+.logo img{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
  /* Nav Bar */
 .nav__links {
   list-style: none;
@@ -105,15 +111,28 @@ header {
   text-align: center;
   border-style: solid;
 }
-.about_container {
-  display:flex;
-  height: 100vh;
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
 }
-
-.child-container {
-  border:5px solid white;
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
 }
-
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
 
 #about .info {
 	display: flex;
@@ -356,7 +375,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+	background:#f9004d;
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -364,7 +383,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
+	background:#f9004d;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
